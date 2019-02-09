@@ -1,0 +1,445 @@
+.r{
+    background-color: red;
+}
+
+body{
+    background-color: rgb(144, 163, 167);
+}
+
+
+/* Style Home part */
+.imgHomeHead{
+    width: 100%;
+    height: 1000px;
+    background-image: url(./HomeEditImg/Part2-First/p2-1/a1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+     animation-name: tertel;
+     animation-iteration-count: infinite;
+     animation-duration: 10s;
+     animation-delay: 2s;
+}
+ 
+@keyframes tertel {
+    100% {
+        background-image: url(./HomeEditImg/Part2-First/p2-1/a.png);
+    }
+}
+.imgHomeHead:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+
+.imgWoman1,
+.imgWoman2 {
+    min-width: 49%;
+    min-height: 700px;
+    background-image: url(./HomeEditImg/Part2-First/p2-4/a12.png);
+    margin-left:0.8%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.imgWoman2{
+        background-image: url(./HomeEditImg/Part2-First/p2-4/a13.png)
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    min-width: 100px;
+    min-height: 600px;
+    display: inline-block;
+}
+
+
+.styleGavTitle{
+    /* max-width: 10%; */
+    color: rgb(36, 34, 32);
+    font-size: 50px;
+    line-height: 38px;
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.textProduct{
+    color: rgb(24, 20, 20);
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+}
+.gavImg{
+    min-width: 35%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.styleOurModelsDiv{
+    text-align: center;
+}
+.disStyle{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+/* End */
+
+
+/* 2rd mas */
+.titleStyle{
+    font-size: 50px;
+    /* background-color: rgb(25, 211, 224); */
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    transition: 2s;
+}
+.titleStyle:hover{
+    color: brown;
+}
+.d{
+    display: inline-block;
+}
+.titleMan {
+    min-width: 100px;
+    margin-left: 10px;
+    text-decoration: underline;     
+}
+.forAllTitle{
+    font-size: 22px;
+    color: black;
+    font-family: Cambria,
+    Cochin,
+    Georgia,
+    Times,
+    'Times New Roman',
+    serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titleWoman {
+    min-width: 100px;
+    text-decoration: underline;
+    text-decoration: underline;
+}
+.backDiv{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.text {
+    margin-top: 5px;
+}
+.backDivNewNow{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* end style home part */
+
+/* New WomanPart and ManPart */
+.newPartHeadImg {
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transition: 2s;
+    overflow: hidden;
+}
+
+.newPartHeadImg:hover {
+    transform: scale(1.01);
+
+}
+
+.textNewPart1,
+.textNewPart1 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.textNewPart2 {
+    font-size: 20px;
+    color: slategray;
+    text-align: center;
+}
+
+
+/* Es pah@ harcnel ??????????? */
+.forPrice{
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Man part */
+.midText{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+.manImgStyle {
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.imgCentre{
+     text-align: center;
+}
+
+/* Section */
+.leftSection{
+    max-width: 55%;
+    background-color: red;
+    display: inline-block;
+}
+.rightSection{
+    min-width: 45%;
+    vertical-align: top;
+    display: inline-block;
+    background-color: blue;
+}
+/* End New Part */
+
+h1{
+    color: red;
+    font-size: 30px;
+}
+
+
+/* Style second page */
+.styleSecondPage{
+    margin-top: 100px;
+    border: 4px solid black;
+}
+
+.disInBlock{
+    display: inline-block;
+}
+.styleShoppingCart{
+    min-width: 500px;
+    margin-left: 40px;
+    border:2px dashed rgb(85, 9, 9);
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.textShopCart,
+.stylePay
+{
+    font-size: 20px;
+    color: rgb(85, 9, 9);
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonStyle:hover{
+    background-color: cadetblue;
+}
+.buyButStyle{
+     min-width: 120px;
+     font-size: 25px;
+     font-weight: bold;
+     background-color: rgb(153, 21, 120);
+     margin-top: 50px;
+     margin-left: 33%;
+     border-radius: 15px;
+     color: white;
+}
+
+select{
+    min-width: 100px;
+    margin-left: 7px;
+    color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact part */
+.con {
+    padding-bottom: 100px;
+}
+
+.contactPartStyle {
+    height: 300px;
+    background-image: url(./Img/contactPart/backImg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titleStyle {
+    text-align: center;
+    font-size: 30px;
+    font-family: Cambria,
+        Cochin,
+        Georgia,
+        Times,
+        'Times New Roman',
+        serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.midTextSize,
+.smTextSize {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.smTextSize {
+    font-size: 22px;
+    text-align: left;
+}
+
+input {
+    font-size: 20px;
+    color: black;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid gray;
+}
+
+textarea {
+    font-size: 20px;
+    padding-right: 488px;
+    padding-bottom: 140px;
+}
+
+.forMarginRow {
+    margin-top: 20px;
+}
+
+.buttonStyle {
+    margin-left: 14px;
+    background-color: rgb(61, 134, 207);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    transition: 3s;
+}
+
+/*  AndContact part */
+
+
+/* End part start */
+/* Start End Part */
+.endStyle {
+    background-color: rgb(99, 99, 95);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.logoStyleEnd{
+    font-size: 60px;
+    color: rgb(102, 23, 23);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.f,
+.i,
+.t,
+.y {
+    min-height: 50px;
+    max-width: 50px;
+    background-image: url(./Img/endPart/f.png);
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    margin-left: 25px;
+}
+
+.i {
+    background-image: url(./Img/endPart/i.png)
+}
+
+.t {
+    background-image: url(./Img/endPart/t.png)
+}
+
+.y {
+    background-image: url(./Img/endPart/y.png)
+}
+
+.destiText {
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding-left: 50px;
+}
+
+.logoForUp {
+    height: 60px;
+    max-width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-position: -40%;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    border: 2px solid black;
+    background-color: rgb(13, 105, 68);
+    transition: 1.5s;
+    margin-top: 70px;
+}
+
+.logoForUp {
+    background-image: url(./Img/endPart/prev.png);
+    transform: rotate(90deg);
+}
+
+.logoForUp:hover {
+    background-color: rgb(190, 194, 122);
+}
+
+/* End End Part */
+
+.headText {
+    color: black;
+}
+/* End  */
+
