@@ -14,7 +14,7 @@ class Contact extends Component {
                     <Col md={6} mdOffset={1}>
                         <Row>
                             <Col md={4} mdOffset={4} className='midTextSize'>
-                                Send us a message
+                                Send us a message sss
                           </Col>
                         </Row>
                         <Row className='forMarginRow'>
